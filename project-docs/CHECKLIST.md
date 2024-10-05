@@ -11,11 +11,11 @@
     - [ X ] Create an ERD to map out the relationships between books, authors, and users.
     - [ X ] Ensure all entities and relationships are clear and match Firebase’s data structure.
     - [ X ] Use tools like draw.io or Lucidchart for the ERD.
-    -  X[ ] If an ERD is provided, review it and ensure it fits the project needs.
+    - [ X ] If an ERD is provided, review it and ensure it fits the project needs.
 
 1. **Project Setup**
     - [ X ] Initialize a new Next.js project.
-    - [ X Organize the file structure for easy navigation (e.g., components, pages, utils, etc.).
+    - [ X ] Organize the file structure for easy navigation (e.g., components, pages, utils, etc.).
     - [ X ] Install necessary dependencies (Firebase, etc.).
     - [ X ] Connect the app to Firebase (check for Google Authentication and real-time database).
 
@@ -25,17 +25,17 @@
     - [ ? ] Test sign-in and sign-out functionality thoroughly.
 
 1. **Routing & Navigation**
-    - [ ] Set up dynamic routing in Next.js App Router (e.g., `/books/[id]`, `/authors/[id]`).
-    - [ ] Ensure navigation between list views and individual item pages.
-    - [ ] Include links for easy navigation across the app (home, details, etc.).
-    - [ ] Test dynamic routes and ensure data loads correctly based on route params.
+    - [ X ] Set up dynamic routing in Next.js App Router (e.g., `/books/[id]`, `/authors/[id]`).
+    - [ X ] Ensure navigation between list views and individual item pages.
+    - [ X ] Include links for easy navigation across the app (home, details, etc.).
+    - [ X ] Test dynamic routes and ensure data loads correctly based on route params.
 
 ## DAY 2
 
 1. **Data Management & Fetching**
     - [ X ] Create a Firebase Realtime Database or Firestore to store data (or connect to an existing one).
     - [ X ] Fetch user-specific data from Firebase (books, authors, etc.).
-    - [ ? ] Use `useEffect` for data fetching and ensure data renders on component mount.
+    - [ X ] Use `useEffect` for data fetching and ensure data renders on component mount.
     - [ X ] Test data retrieval and ensure no issues with Firebase queries.
 
 1. **Endpoint and Database Testing with Postman**
@@ -46,12 +46,12 @@
     - [ ? ] Document API responses and any errors to reference during development.
 
 1. **State Management**
-    - [ ] Use `useState` for managing form inputs and component state.
-    - [ ] Ensure state is updated properly when forms are filled or events occur.
-    - [ ] Manage global or shared state using Context API or props drilling.
+    - [ X ] Use `useState` for managing form inputs and component state.
+    - [ X ] Ensure state is updated properly when forms are filled or events occur.
+    - [ ? ] Manage global or shared state using Context API or props drilling.
 
 1. **One-to-Many Relationship with Dynamic Select Menu**
-    - [ ] Set up a **one-to-many relationship** between entities (e.g., an author can have many books).
+    - [ X ] Set up a **one-to-many relationship** between entities (e.g., an author can have many books).
     - [ X ] Create a form with a select menu that is dynamically populated with related options (e.g., select an author when adding/editing a book).
     - [ X ] Fetch and display the list of available options from Firebase in the select menu.
     - [ X ] Ensure the relationship is correctly reflected in the database (e.g., storing the book with its associated author ID).
@@ -59,26 +59,26 @@
 ## DAY 3
 
 1. **Rendering Lists & Conditional Content**
-    - [ ] Use loops to render lists of data dynamically.
-    - [ ] Implement conditional rendering (e.g., showing a message if no data is available).
-    - [ ] Test list rendering thoroughly with varying amounts of data.
+    - [ X ] Use loops to render lists of data dynamically.
+    - [ ? ] Implement conditional rendering (e.g., showing a message if no data is available).
+    - [ X ] Test list rendering thoroughly with varying amounts of data.
 
 1. **Hooks (useState, useEffect)**
-    - [ ] Implement `useState` for managing local component state.
-    - [ ] Use `useEffect` for handling side effects (e.g., data fetching).
-    - [ ] Ensure proper usage of dependencies in `useEffect` to avoid infinite loops.
+    - [ X ] Implement `useState` for managing local component state.
+    - [ X ] Use `useEffect` for handling side effects (e.g., data fetching).
+    - [ X ] Ensure proper usage of dependencies in `useEffect` to avoid infinite loops.
 
 1. **READ & DELETE Operations**
-    - [ ] Implement **READ**: Fetch and render lists of data (books, authors).
-    - [ ] Implement **DELETE**: Allow users to delete data from Firebase.
+    - [ X ] Implement **READ**: Fetch and render lists of data (books, authors).
+    - [ X ] Implement **DELETE**: Allow users to delete data from Firebase.
 
 1. **CREATE & UPDATE Operations - Two-Way Binding & Forms**
-    - [ ] Implement **CREATE**: Build forms to add new data (e.g., books, authors) to Firebase.
-    - [ ] Implement **UPDATE**: Enable editing existing data and updating it in Firebase.
-    - [ ] Implement two-way data binding in forms (real-time input reflection).
-    - [ ] Listen for input changes and update state accordingly.
-    - [ ] Ensure forms are fully functional for both creating and updating items.
-    - [ ] Ensure all CRUD operations work with user-specific data.
+    - [ X ] Implement **CREATE**: Build forms to add new data (e.g., books, authors) to Firebase.
+    - [  X] Implement **UPDATE**: Enable editing existing data and updating it in Firebase.
+    - [ X ] Implement two-way data binding in forms (real-time input reflection).
+    - [ X ] Listen for input changes and update state accordingly.
+    - [ X ] Ensure forms are fully functional for both creating and updating items.
+    - [ X ] Ensure all CRUD operations work with user-specific data.
 
 ## DAY 4
 1. README:
