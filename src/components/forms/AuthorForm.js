@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import PropTypes from 'prop-types';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
@@ -22,11 +22,9 @@ function AuthorForm({ obj = initialState }) {
   const router = useRouter();
   const { user } = useAuth();
 
-  // useEffect(() => {
-  //   getAuthors(user.uid).then(setAuthors);
-
-  //   if (obj.firebaseKey) setFormInput(obj);
-  // }, [obj, user]);
+  useEffect(() => {
+    if (obj.firebaseKey) setFormInput(obj);
+  }, [obj, user]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -39,13 +37,13 @@ function AuthorForm({ obj = initialState }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (obj.firebaseKey) {
-      updateAuthor(formInput).then(() => router.push(`/author/${obj.firebaseKey}`));
+      updateAuthor(formInput).then(() => router.push(`/Author/${obj.firebaseKey}`));
     } else {
       const payload = { ...formInput, uid: user.uid };
       createAuthor(payload).then(({ name }) => {
         const patchPayload = { firebaseKey: name };
         updateAuthor(patchPayload).then(() => {
-          router.push('/');
+          router.push('/authors');
         });
       });
     }
@@ -94,12 +92,10 @@ function AuthorForm({ obj = initialState }) {
 
 AuthorForm.propTypes = {
   obj: PropTypes.shape({
-    description: PropTypes.string,
-    image: PropTypes.string,
-    price: PropTypes.string,
-    sale: PropTypes.bool,
-    title: PropTypes.string,
-    author_id: PropTypes.string,
+    first_name: PropTypes.string,
+    last_name: PropTypes.string,
+    email: PropTypes.string,
+    favorite: PropTypes.bool,
     firebaseKey: PropTypes.string,
   }),
 };
