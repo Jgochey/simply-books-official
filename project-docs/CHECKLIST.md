@@ -21,8 +21,8 @@
 
 1. **Authentication**
     - [ X ] Set up Firebase Authentication for Google sign-in.
-    - [ ? ] Ensure authentication flow works and restrict data access based on logged-in users.
-    - [ ? ] Test sign-in and sign-out functionality thoroughly.
+    - [ X ] Ensure authentication flow works and restrict data access based on logged-in users.
+    - [ X ] Test sign-in and sign-out functionality thoroughly.
 
 1. **Routing & Navigation**
     - [ X ] Set up dynamic routing in Next.js App Router (e.g., `/books/[id]`, `/authors/[id]`).
@@ -40,15 +40,15 @@
 
 1. **Endpoint and Database Testing with Postman**
     - [ X ] Use Postman to test all Firebase endpoints and the database.
-    - [ ] Verify the API layer works as expected (CRUD operations on books/authors).
-    - [ ? ] Ensure all user-specific data is correctly retrieved and updated.
-    - [ ] Check for proper authorization with Google Authentication on restricted endpoints.
-    - [ ? ] Document API responses and any errors to reference during development.
+    - [ X ] Verify the API layer works as expected (CRUD operations on books/authors).
+    - [ X ] Ensure all user-specific data is correctly retrieved and updated.
+    - [ X ] Check for proper authorization with Google Authentication on restricted endpoints.
+    - [ X ] Document API responses and any errors to reference during development.
 
 1. **State Management**
     - [ X ] Use `useState` for managing form inputs and component state.
     - [ X ] Ensure state is updated properly when forms are filled or events occur.
-    - [ ? ] Manage global or shared state using Context API or props drilling.
+    - [ X ] Manage global or shared state using Context API or props drilling.
 
 1. **One-to-Many Relationship with Dynamic Select Menu**
     - [ X ] Set up a **one-to-many relationship** between entities (e.g., an author can have many books).
@@ -74,7 +74,7 @@
 
 1. **CREATE & UPDATE Operations - Two-Way Binding & Forms**
     - [ X ] Implement **CREATE**: Build forms to add new data (e.g., books, authors) to Firebase.
-    - [  X] Implement **UPDATE**: Enable editing existing data and updating it in Firebase.
+    - [ X] Implement **UPDATE**: Enable editing existing data and updating it in Firebase.
     - [ X ] Implement two-way data binding in forms (real-time input reflection).
     - [ X ] Listen for input changes and update state accordingly.
     - [ X ] Ensure forms are fully functional for both creating and updating items.
@@ -96,10 +96,10 @@
 ## DAY 5 
 
 1. **Deployment**
-    - [ ] Deploy the app on Netlify or another platform.
-    - [ ] Ensure the live app works as expected with all functionalities intact.
-    - [ ] Ensure all the env vars are transfered to the deployment.
-    - [ ] Share the deployed app link in the assignment submission.
+    - [ X ] Deploy the app on Netlify or another platform.
+    - [ X ] Ensure the live app works as expected with all functionalities intact.
+    - [ X ] Ensure all the env vars are transfered to the deployment.
+    - [ X ] Share the deployed app link in the assignment submission.
 
 ## DAY 6
 
