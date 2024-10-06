@@ -19,7 +19,7 @@ This app allows users to create their own collection of Books and Authors. Each 
    their book and author entries.
 
 ## Video Walkthrough
-loom link goes here
+https://www.loom.com/share/8f01a0fe9cd546e3b4e8a60663f03e78?sid=b9f4ebb6-a1e2-4de2-9056-f5e72e5ec770
 
 ## Links
 - [Site Link](https://jgochey-simply-books.netlify.app)
@@ -27,11 +27,9 @@ loom link goes here
 - [Project Board](https://github.com/users/Jgochey/projects/4)
 
 ## Project Screenshots
-<img width="1148" alt="Main" src="https://media.discordapp.net/attachments/1116212815993249792/1269304233862234183/3revised.png?ex=66af932f&is=66ae41af&hm=fe82686e4e11aa383fd7b8bbf470693ad275cb545060200991f624ea7c4f387c&=&format=webp&quality=lossless&width=1440&height=386">
-<img width="1148" alt="Books" src="https://media.discordapp.net/attachments/1116212815993249792/1269304248617799820/4revised.png?ex=66af9333&is=66ae41b3&hm=f3b2c10c3e5bd1f64cf33a3206193c42c4a51f45b64d80da05b1a82217d6dfdf&=&format=webp&quality=lossless&width=1440&height=263">
-<img width="1148" alt="Authors" src="https://media.discordapp.net/attachments/1116212815993249792/1269304267974639647/5revised.png?ex=66af9338&is=66ae41b8&hm=a34fd38bd3f5fd80d1d350fce14e2a806c90ab28fc43cddd11f2bd55fb9806fc&=&format=webp&quality=lossless&width=1440&height=342">
-<img width="1148" alt="Author Card" src="https://media.discordapp.net/attachments/1116212815993249792/1269304267974639647/5revised.png?ex=66af9338&is=66ae41b8&hm=a34fd38bd3f5fd80d1d350fce14e2a806c90ab28fc43cddd11f2bd55fb9806fc&=&format=webp&quality=lossless&width=1440&height=342">
-<img src="./2/to/img.jpg" alt="Image link test" />
+<img width="1148" src="public\images\simplybooks_bookspage.png" alt="Books" />
+<img width="1148" src="public\images\simplybooks_authorspage.png" alt="Authors" />
+<img width="1148" src="public\images\simplybooks_authorscard.png" alt="Author Card" />
 
 ## Contributors
 - Josh Gochey:  https://github.com/Jgochey
